@@ -96,13 +96,14 @@ body, html {
   
   .menu-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: 1fr 1fr;
     gap: 20px;
   }
   
   .menu-item {
     border: 1px solid #eee;
     padding: 15px;
+    height: 10%;
     border-radius: 8px;
     transition: transform 0.3s;
   }
@@ -113,7 +114,6 @@ body, html {
   
   .menu-item img {
     width: 100%;
-    height: auto;
     border-radius: 4px;
   }
   
